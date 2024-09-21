@@ -1,0 +1,1 @@
+class Solution{function reverse($x){if($x===0){return 0;}$m=2147483647;$m1=-2147483648;if($x>0){$x=(int)strrev($x);if($x>=$m||$x<$m1){return 0;}return $x;}if($x<0){$x=(int)-1*strrev($x);if($x>=$m||$x<$m1){return 0;}return $x;}}}
