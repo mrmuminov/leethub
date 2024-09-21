@@ -9,8 +9,9 @@ class Solution {
         while($i) {
             if (strpos($s, '[]') === false && strpos($s, '()') === false && strpos($s, '{}') === false) {
                 $i = false;
+            } else {
+                $s = str_replace(['[]', '{}', '()'], '', $s);
             }
-            $s = str_replace(['[]', '{}', '()'], '', $s);
         }
         return strlen($s) === 0;
     }
