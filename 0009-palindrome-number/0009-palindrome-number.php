@@ -1,0 +1,1 @@
+class Solution{function isPalindrome($x){return $x==strrev($x);}}
