@@ -7,7 +7,6 @@ class Solution {
      */
     function shuffle($nums, $n) {
       $arr=[];
-      $c=$n*2;
       for ($i=0;$i<$n;$i++) {
         $arr[$i]=$nums[$i];
         $ni = $n + $i;
