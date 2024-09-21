@@ -14,17 +14,17 @@
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
-<pre><strong>Input:</strong> celsius = 36.50
+<pre style="position: relative;"><strong>Input:</strong> celsius = 36.50
 <strong>Output:</strong> [309.65000,97.70000]
 <strong>Explanation:</strong> Temperature at 36.50 Celsius converted in Kelvin is 309.65 and converted in Fahrenheit is 97.70.
-</pre>
+<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
 
 <p><strong class="example">Example 2:</strong></p>
 
-<pre><strong>Input:</strong> celsius = 122.11
+<pre style="position: relative;"><strong>Input:</strong> celsius = 122.11
 <strong>Output:</strong> [395.26000,251.79800]
 <strong>Explanation:</strong> Temperature at 122.11 Celsius converted in Kelvin is 395.26 and converted in Fahrenheit is 251.798.
-</pre>
+<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
 
 <p>&nbsp;</p>
 <p><strong>Constraints:</strong></p>
