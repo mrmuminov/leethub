@@ -11,25 +11,25 @@
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 <img alt="example-1" src="https://assets.leetcode.com/uploads/2021/09/30/example1.png" style="width: 637px; height: 48px;">
-<pre style="position: relative;"><strong>Input:</strong> s = "1 box has 3 blue 4 red 6 green and 12 yellow marbles"
+<pre><strong>Input:</strong> s = "1 box has 3 blue 4 red 6 green and 12 yellow marbles"
 <strong>Output:</strong> true
 <strong>Explanation:</strong> The numbers in s are: 1, 3, 4, 6, 12.
 They are strictly increasing from left to right: 1 &lt; 3 &lt; 4 &lt; 6 &lt; 12.
-<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
+</pre>
 
 <p><strong class="example">Example 2:</strong></p>
 
-<pre style="position: relative;"><strong>Input:</strong> s = "hello world 5 x 5"
+<pre><strong>Input:</strong> s = "hello world 5 x 5"
 <strong>Output:</strong> false
 <strong>Explanation:</strong> The numbers in s are: <u><strong>5</strong></u>, <strong><u>5</u></strong>. They are not strictly increasing.
-<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
+</pre>
 
 <p><strong class="example">Example 3:</strong></p>
 <img alt="example-3" src="https://assets.leetcode.com/uploads/2021/09/30/example3.png" style="width: 794px; height: 48px;">
-<pre style="position: relative;"><strong>Input:</strong> s = "sunset is at 7 51 pm overnight lows will be in the low 50 and 60 s"
+<pre><strong>Input:</strong> s = "sunset is at 7 51 pm overnight lows will be in the low 50 and 60 s"
 <strong>Output:</strong> false
 <strong>Explanation:</strong> The numbers in s are: 7, <u><strong>51</strong></u>, <u><strong>50</strong></u>, 60. They are not strictly increasing.
-<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
+</pre>
 
 <p>&nbsp;</p>
 <p><strong>Constraints:</strong></p>
