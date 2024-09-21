@@ -1,9 +1,4 @@
 class Solution {
-
-    /**
-     * @param Integer $num
-     * @return Integer
-     */
     function minimumSum($num) {
         $num = str_split(str_replace('0', '', $num));
         $c = count($num);
