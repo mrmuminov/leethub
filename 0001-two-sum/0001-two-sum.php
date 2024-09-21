@@ -6,12 +6,16 @@ class Solution {
      * @return Integer[]
      */
     function twoSum($nums, $target) {
-        foreach($nums as $fk => $f) {
-            foreach($nums as $sk => $s) {
-                if ($fk != $sk && $target == $f+$s) {
-                  return [$fk, $sk];
+        foreach($nums as $x => $r) {
+            foreach($nums as $k => $c){
+                if ($x==$k) continue;
+                if ($r+$c == $target) {
+                    if ($x > $k)  $result = [$k,$x];
+                    else $result = [$x, $k];
+                    break;
                 }
             }
         }
+        return $result;
     }
 }
