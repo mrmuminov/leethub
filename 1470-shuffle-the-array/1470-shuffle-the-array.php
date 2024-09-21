@@ -10,10 +10,10 @@ class Solution {
       $c=$n*2;
       for ($i=0;$i<$n;$i++) {
         $arr[$i]=$nums[$i];
-        $arr[$n+$i]=$nums[$n+$i];
+        $ni = $n + $i;
+        $arr[$ni]=$nums[$ni];
       }
 
-        
-        return $arr;
+      return $arr;
     }
 }
