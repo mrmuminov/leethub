@@ -7,15 +7,15 @@ class Solution {
     function removeDuplicates(&$nums) {
         $l = $s = count($nums);
         $n = false;
-        foreach ($nums as $i => $num) {
-            if ($n !== $num) {
-                $n = $num;
+        for ($i=0;$i<$l;$i++) {
+            if ($n !== $nums[$i]) {
+                $n = $nums[$i];
+                --$s;
             } else {
-                $s--;
                 unset($nums[$i]);
             }
         }
         
-        return $s;
+        return count($nums);
     }
 }
