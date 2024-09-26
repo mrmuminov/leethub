@@ -10,9 +10,9 @@ class Solution {
         for ($i=0;$i<$l;$i++) {
             if ($n !== $nums[$i]) {
                 $n = $nums[$i];
-                continue;
+            } else {
+                unset($nums[$i]);
             }
-            unset($nums[$i]);
         }
         
         return count($nums);
