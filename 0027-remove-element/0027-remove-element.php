@@ -10,7 +10,6 @@ class Solution {
         for ($i=0;$i<$l;$i++) {
             if ($nums[$i] == $val) {
                 unset($nums[$i]);
-                continue;
             }
         }
         return count($nums);
