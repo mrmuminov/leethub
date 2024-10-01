@@ -1,7 +1,6 @@
 func lengthOfLastWord(s string) int {
-	l := len(s)
 	wc := 0
-	for i := l - 1; i >= 0; i-- {
+	for i := len(s) - 1; i >= 0; i-- {
 		if s[i] != 32 {
 			wc++
 		} else {
